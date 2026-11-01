@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.container{
+    height: 500px;
+    width: 400px;
+    background-color: aqua;
+    border-radius: 10px;
+    color: royalblue;
+}
+.input-box{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-box input{
+    padding: 15px;
+    width: 300px;
+    background-color:tan;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.input-box button{
+    margin-left: 5px;
+    height: 45px;
+    width: 45px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color:tan;
+    cursor: pointer;
+}
+button i:hover{
+    color: black;
+}
+button i{
+    font-size: 30px;
+    color: coral;
+}
+img{
+    height: 160px;
+    width: 200px;
+    object-fit: contain;
+    margin-left:100px;
+}
+.tepreture span{
+    font-size: 50px;
+    margin-left: 170px;
+    font-weight: 700;
+}
+.tepreture sup{
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.tepreture p{
+    margin-left: 160px;
+    font-size: 27px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.icons{
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.Humility{
+    display: flex;
+    flex-direction: column;
+}
+.Humility i{
+    font-size: 35px;
+}
+.Humility span{
+    font-size: 30px;
+    font-weight: bold;
+}
+.wind-speed i{
+    font-size: 35px;
+}
+.wind-speed span{
+    font-size: 30px;
+    font-weight: bold;
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <div class="container">
+        <div class="input-box">
+          <input id="input" type="text" />
+          <button id="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div>
+          <img src="iamge.png" alt=""/>
+        </div>
+        <div class="tepreture">
+          <span id="tepmreture"><sup></sup></span>
+          <p id="country"></p>
+        </div>
+
+        <div class="icons">
+          <div class="Humility">
+            <div>
+              <i class="fa-solid fa-droplet"></i>
+              <span id="Humility"></span>
+            </div>
+            <span>Humidity</span>
+          </div>
+
+          <div class="wind-speed">
+            <div>
+              <i class="fa-solid fa-wind"></i>
+              <span id="wind_Speed"></span>
+            </div>
+            <span>Wind Speed</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
